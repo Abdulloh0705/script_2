@@ -1,12 +1,15 @@
 var age = prompt("yoshingizni kriting")
 
-if( age > 18 && age < 30) {
-  console.log(" siz bu yoshda ishlashingiz mumkin")
-  alert('siz bu yoshda ishlashingiz mumkin')
-}else if (age > 30 && age < 60){
-  console.log(" siz bu yoshda kop ishlashingiz kerek")
-  alert('siz bu yoshda kop ishlashingiz kerek')
-}else if (age > 60 && age < 100){
-  console.log("siz pensiya yoshdasiz ishlay olmaysiz")
-  alert('siz pensiya yoshdasiz ishlay olmaysiz')
+if( age > 0 && age < 18) {
+  console.log(" siz hali yoshsiz siz hali o'qishingiz kerak")
+  alert("siz hali yoshsiz siz hali o'qishingiz kerak")
+}else if (age > 18 && age < 30){
+  console.log(" siz ishlashingiz kerak")
+  alert('siz ishlashingiz kerak')
+}else if (age > 30 && age < 50){
+  console.log("siz hali ishlashingiz kerak")
+  alert('siz hali ishlashingiz kerak')
+}else(age > 50 && age < 100 ){
+  console.log("siz yaqinda nafaqa yoshiga yetar ekansiz")
+  alert('siz yaqinda nafaqa yoshiga yetar ekansiz')
 }
